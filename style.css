@@ -6,7 +6,7 @@
 
 header {
   height: 50px;
-  background-color: #FF9A4B;
+  background-color: #ff9a4b;
 }
 
 main {
@@ -17,7 +17,7 @@ main {
 
 .contents {
   width: 300px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   margin-right: 30px;
   padding: 10px;
   position: relative;
@@ -50,11 +50,11 @@ main {
 
 .step {
   padding: 3px;
-  background-color: #FF9A4B;
+  background-color: #ff9a4b;
   position: absolute;
   top: 0;
   left: 0;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .title {
@@ -63,21 +63,22 @@ main {
 
 footer {
   height: 50px;
-  background-color: #AAAAAA;
+  background-color: #aaaaaa;
 }
 
 @media screen and (max-width: 768px) {
-  header{
+  header {
     width: 100%;
   }
 
-  main{
+  main {
     width: 100%;
     display: block;
   }
 
   .contents {
     width: 90%;
+    margin: 0 auto;
   }
 
   .contents:nth-child(2) {
